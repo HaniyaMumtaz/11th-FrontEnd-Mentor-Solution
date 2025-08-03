@@ -1,0 +1,198 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color:  hsl(240, 43%, 95%);
+    font-family: 'Hanken Grotesk';
+
+}
+
+.wrapper{
+    background-color:  hsl(0, 0%, 100%);
+    max-height: 380px;
+    max-width: 500px;
+    height: 380px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+   
+}
+
+.blue-container{
+    background-color:  rgb(101, 98, 252);
+    max-height: 380px;
+    max-width: 250px;
+    height: 380px;
+    width: 250px;
+    border-radius: 20px;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, #5957cd, #4731c4);
+}
+
+.white-wrapper{
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+.Result-heading{
+    margin: 0px;
+    color: hsl(241, 100%, 89%);
+    padding: 0px;
+    font-size: 20px;
+}
+
+.circular-section{
+    border-radius: 50%;
+    background-color: rgb(53, 50, 245);
+    max-height: 110px;
+    height: 110px;
+    max-width: 120px ;
+    width: 120px;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(74, 65, 201), rgb(49, 37, 173));
+    margin: 20px;
+
+}
+
+.circular-section h1{
+    color:  hsl(0, 0%, 100%) ;
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 15px;
+   
+}
+
+.circular-section p{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+
+.blue-container h2{
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+}
+
+.description{
+    color:  hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 12px;
+    margin: 0px 35px 0px 35px;
+    word-spacing: 1px;
+}
+
+.summary-heading{
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+}
+
+.red-section , .yellow-section , .green-section , .black-section {
+    max-width: 180px ;
+    width: 180px;
+    max-height: 40px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+      font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    color:  hsl(240, 2%, 59%);
+}
+
+.red-section{
+    background-color:  hsla(0, 100%, 94%, 50%);
+}
+
+.red-section img{
+    width: 14px;
+    margin-right: 5px;
+}
+
+.reaction{
+    margin: 12px 40px 12px 8px;
+    color: red;
+}
+
+.yellow-section{
+    background-color: hsla(64, 98%, 81%, 50%);
+}
+
+.yellow-section img{
+      width: 14px;
+    margin-left: 5px;
+     margin-right: 10px;
+}
+
+.memory{
+     margin: 12px 30px 18px 8px;
+    color: rgb(248, 190, 1);
+}
+
+.green-section{
+    background-color: rgba(209, 241, 226, 0.5);
+}
+
+.green-section img{
+     width: 14px;
+    margin-left: 5px;
+     margin-right: 10px;
+}
+
+.verbal{
+  margin: 12px 40px 18px 10px;
+    color:rgb(13, 244, 136);
+}
+
+.black-section{
+    background-color:  hsla(241, 100%, 89%, 0.3);
+}
+
+.black-section img{
+     width: 14px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.visual{
+     margin: 12px 45px 12px 10px;
+    color: hsl(224, 30%, 27%);
+}
+
+span{
+     color: hsl(224, 30%, 27%);
+     font-weight: 700;
+}
+
+button{
+    border-style: none;
+    max-width: 180px;
+    width: 180px;
+    max-height: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:   hsl(224, 30%, 27%);
+    color: white;
+    margin-left: 25px;
+}
+
+button:hover {
+    background: linear-gradient(180deg, #5957cd, #4731c4);
+    cursor: pointer;
+}
+
+.attribution {
+    margin: 30px;
+     font-size: 11px;
+      text-align: center;
+     }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
